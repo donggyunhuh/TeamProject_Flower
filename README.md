@@ -1,6 +1,6 @@
 # 프로젝트 아이디어 회의 및 개발 계획
 
-<img src="https://url/image.png" width="100" height="50"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EB%A1%9C%EA%B3%A0%20%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0%20%EC%98%88%EC%8B%9C.png?raw=true" width="130" height="70"/>
 
 ## 2023/09/05 15:00 아이디어 회의
 
