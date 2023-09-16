@@ -102,8 +102,8 @@
 
 ## 팀원 정보 및 문의처
 
-- 허동균: [이메일](mailto:yje07052@naver.com), - [전화번호](tel:+1076753970)
-- 김진우: [이메일](mailto:gjfzmtiq1@naver.com), - [전화번호](tel:+109251757110)
-- 구대윤: [이메일](mailto:hy010309@naver.com), - [전화번호](tel:+1072391039)
-- 이도경: [이메일](mailto:hidoky@inu.ac.kr), - [전화번호](tel:+1048441265)
-- 박민규: [이메일](mailto:qkralsrb5235@naver.com), - [전화번호](tel:+1030935235)
+- 허동균: [이메일](mailto:yje07052@naver.com) - [전화번호](tel:+01076753970)
+- 김진우: [이메일](mailto:gjfzmtiq1@naver.com) - [전화번호](tel:+0109251757110)
+- 구대윤: [이메일](mailto:hy010309@naver.com) - [전화번호](tel:+01072391039)
+- 이도경: [이메일](mailto:hidoky@inu.ac.kr) - [전화번호](tel:+01048441265)
+- 박민규: [이메일](mailto:qkralsrb5235@naver.com) - [전화번호](tel:+01030935235)
