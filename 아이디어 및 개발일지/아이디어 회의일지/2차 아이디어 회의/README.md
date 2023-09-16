@@ -53,7 +53,7 @@
 
 ### 회의 사진
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%9A%8C%EC%9D%98%20%EC%82%AC%EC%A7%84/%EC%9D%B4%EB%A3%B8%EA%B4%80%20%EC%8A%A4%ED%84%B0%EB%94%94%EB%A3%B8%200906.jpg?raw=true" alt="회의 사진" width="160" height="120">
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%ED%9A%8C%EC%9D%98%EC%9D%BC%EC%A7%80/2%EC%B0%A8%20%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%ED%9A%8C%EC%9D%98/%ED%9A%8C%EC%9D%98%20%EC%82%AC%EC%A7%84/%EC%9D%B4%EB%A3%B8%EA%B4%80%20%EC%8A%A4%ED%84%B0%EB%94%94%EB%A3%B8%200906.jpg?raw=true" alt="회의 사진" width="160" height="150">
 
 ## 팀원 정보 및 문의처
 
