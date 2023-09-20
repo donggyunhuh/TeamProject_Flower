@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FlowerProjectApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(FlowerProjectApplication.class, args);
+        out.print("하이");
+
     }
 
 }
