@@ -10,7 +10,6 @@ public class FlowerProjectApplication {
 
         SpringApplication.run(FlowerProjectApplication.class, args);
         out.print("하이");
-
     }
 
 }
