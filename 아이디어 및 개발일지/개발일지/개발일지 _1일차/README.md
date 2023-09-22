@@ -17,7 +17,7 @@
 
 ### 사용자 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%82%AC%EC%9A%A9%EC%A7%80%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
 
 - 암호화된 사용자(회원)의 이름, id, pw, 전화번호를 확인하고 악성 회원인 경우 체크란을 만들어 중점적으로 관리 할 수 있도록 합니다.
 
@@ -48,6 +48,6 @@
 **오류 원인** : jdk 설치 버전이 다름, 소스코드 open 폴더 잘못 지정, 스프링부트 설치환경 다름.
 --> 깃허브 소스코드 레포지토리 폴더 수정과 jdk 설치버전 jdk-20 버전으로 통일로 해결!
 
-- 각 컴퓨터에서 commit, Pull Request 과정을 성공적으로 완료했고, 협업 준비가 완료됐습니다.
+- 각 컴퓨터에서 commit, Pull Request 과정을 성공, 협업 준비가 완료됐습니다.
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EB%A1%9C%EA%B3%A0%20%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0%20%EC%98%88%EC%8B%9C.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/Pull%20request%20%EC%98%88%EC%8B%9C.png?raw=true"/>
