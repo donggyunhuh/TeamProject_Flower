@@ -2,7 +2,7 @@
 
 사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 사용자의 위치정보를 이용한 꽃 주문 방식 단순화 서비스를 제공하는 웹 사이트 입니다.
 
-[웹사이트 바로가기](https://www.naver.com)
+[웹사이트 바로가기(예시)](https://showmeflowerh.imweb.me/?redirect=no&_gl=1*1g6h0rh*_ga*NDczMjA0Nzc3LjE2OTUxODk5MTM.*_ga_HP37L08LP3*MTY5NTE4OTkxMi4xLjEuMTY5NTE5MDMyNS40Mi4wLjA.&_ga=2.169963496.99216162.1695189913-473204777.1695189913)
 
 ## 목차
 
