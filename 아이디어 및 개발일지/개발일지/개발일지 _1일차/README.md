@@ -56,32 +56,37 @@
 
 ## 주문 페이지 UI 구성 회의
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%ED%99%88%20%ED%99%94%EB%A9%B4.jpg?raw=true" width="436" height="617"/>
 - 메인 홈페이지 예상
+  <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%ED%99%88%20%ED%99%94%EB%A9%B4.jpg?raw=true" width="436" height="617"/>
 
 ---
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/AI%20%EA%BD%83%20%EC%B6%94%EC%B2%9C.jpg?raw=true" width="436" height="617"/>
 - AI 꽃 추천 페이지 예상
 
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/AI%20%EA%BD%83%20%EC%B6%94%EC%B2%9C.jpg?raw=true" width="436" height="617"/>
+
 ---
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EA%BD%83%20%EC%B6%94%EC%B2%9C%20AI%20%20%EC%8B%A4%ED%96%89%20%EC%99%84%EB%A3%8C.jpg?raw=true" width="436" height="617"/>
 - AI 꽃 추천 완료 페이지 예상
 
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EA%BD%83%20%EC%B6%94%EC%B2%9C%20AI%20%20%EC%8B%A4%ED%96%89%20%EC%99%84%EB%A3%8C.jpg?raw=true" width="436" height="617"/>
+
 ---
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EC%A3%BC%EB%AC%B8%ED%95%98%EA%B8%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true" width="436" height="617"/>
 - 주문하기 페이지 에상
 
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EC%A3%BC%EB%AC%B8%ED%95%98%EA%B8%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true" width="436" height="617"/>
+
 ---
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EC%A3%BC%EB%AC%B8%EB%82%B4%EC%97%AD.jpg?raw=true" width="436" height="617"/>
 - 주문내역 페이지 예상
 
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EC%A3%BC%EB%AC%B8%EB%82%B4%EC%97%AD.jpg?raw=true" width="436" height="617"/>
+
 ---
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EB%A7%A4%EC%9E%A5%20%EC%A0%9C%EC%95%88%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true" width="436" height="617"/>
 - 매장 매칭 제안 페이지 예상
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EB%A7%A4%EC%9E%A5%20%EC%A0%9C%EC%95%88%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true" width="436" height="617"/>
 
 ---
