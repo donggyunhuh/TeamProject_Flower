@@ -48,6 +48,6 @@
 **오류 원인** : jdk 설치 버전이 다름, 소스코드 open 폴더 잘못 지정, 스프링부트 설치환경 다름.
 --> 깃허브 소스코드 레포지토리 폴더 수정과 jdk 설치버전 jdk-20 버전으로 통일로 해결!
 
-- 각 컴퓨터에서 commit, Pull Request 과정을 성공적으로 완료했고, 협업 준비가 완료됐습니다.
+- 각 컴퓨터에서 commit, Pull Request 과정을 성공, 협업 준비가 완료됐습니다.
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/Pull%20request%20%EC%98%88%EC%8B%9C.png?raw=true"/>
