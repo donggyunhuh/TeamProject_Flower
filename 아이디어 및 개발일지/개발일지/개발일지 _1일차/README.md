@@ -52,7 +52,7 @@
 
 - 각 컴퓨터에서 commit, Pull Request 과정을 성공, 협업 준비가 완료됐습니다.
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/Pull%20request%20%EC%98%88%EC%8B%9C.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/Pull%20request%20%EC%98%88%EC%8B%9C.png?raw=true"/>
 
 ## 주문 페이지 UI 구성 회의
 
