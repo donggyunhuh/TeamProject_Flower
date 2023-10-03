@@ -1,93 +1,58 @@
-# 웹 UI 구성 회의
+# Flower Recommendation Algorithm
 
-## 관리자 페이지 UI 구성 회의
+<br>
+이 문서에서는 이번 프로젝트의 주요 기능중 하나인 '키워드 기반 꽃 추천' 기능에 사용될 알고리즘을 소개한다.<br><br>
 
-- **일시:** 2023.09.20. 16:00
-- **장소:** 이룸관 스터디룸 2
+## 꽃 추천 알고리즘
+먼저 키워드 기반 꽃 추천이 어떻게 이루어지는지 설명하자면 사용자는 웹에서 '풍성한', '연인', '부모님', '졸업식', '크리스마스' 등 과 같은 
+미리 정해져 있는 키워드 중 몇 가지를 순위를 매겨 선택하게 된다.
+복수 선택된 키워드들을 기반으로 우리가 가지고 있는 꽃의 데이터들에
+점수를 매긴 뒤 높은 점수를 가지는 꽃들을 우선으로 추천해주는 방식이다.<br>
+#### ex) 장미의 각 키워드별 점수
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/rtRp5qV/image.png" alt="image" border="0"></a>
+<br><br>
+## 행렬 곱
+여러 추천 알고리즘 중 사용자가 선택할 키워드의 종류와 추천 받을 꽃의 종류가 정해져있다는 점에서
+채택하게 된 것은 '행렬 곱 알고리즘'이다.<br>
+행렬 곱이란 말 그대로 행렬끼리 곱해주는 것을 말한다. 다음은 대표적인 행렬 곱의 예시이다.<br><br>
+<img src="https://velog.velcdn.com/images%2Fdongchyeon%2Fpost%2Fadf0feaa-fa34-42c1-b609-96043e5f8ca6%2FCodeCogsEqn.png">
+<br><br>
+첫번째 행렬을 A, 두번째 행렬을 B, 결과 행렬을 C라 한다면 **C행 i열 j의 값 = A의 i행의 값 * B의 j열의 값**으로 정의할 수 있다.
+기본적으로 행렬의 곱은 1번째 행렬의 열과 2번째 행렬의 행이 같을 때 연산이 가능한데 만약 M x K 행렬과 K x N 행렬의 곱이 이루어진다면
+그 결과 행렬은 M x N 행렬이 된다. 이를 우리의 방식에 적용해보면 사용자 x 키워드 행렬과 키워드 x 꽃 행렬을 다음과 같이 만들 수 있다.
+<br><br>
+#### 1 x N 행렬 (사용자와 키워드)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/hMRR6yk/Kakao-Talk-20230926-021417383.png" alt="Kakao-Talk-20230926-021417383" border="0"></a>
+<br>a00 ~ a0(N-1)에는 사용자가 정한 키워드들의 우선순위를 고려한 적절한 값이 들어갈 예정이다.<br><br>
+#### N x M 행렬 (키워드와 꽃)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/FVrVV3r/image.png" alt="image" border="0"></a>
+<br>b00 ~ b(N-1)(M-1)에는 각각의 키워드에 해당되는 꽃의 점수가 들어갈 예정이다.<br><br>
+#### 1 x M 행렬 (결과행렬) (사용자와 꽃)
+<a href="https://ibb.co/yY7qfhz"><img src="https://i.ibb.co/ZY7xLHQ/image.png" alt="image" border="0"></a><br>
+이렇게 두 행렬을 곱한 결과행렬에는 꽃별로 "얼마나 사용자가 선택한 키워드에 어울리는지"를 수치화한 값이 들어간다.
+마지막으론 꽃들 중 가장 높은 값을 가지는 3~4개 정도의 꽃을 사용자에게 추천하게 된다.<br>
 
-### 관리자 페이지
+## 시간복잡도
+기본적으로 N x K의 행렬과 K x M의 행렬을 곱한다했을때 필요한 연산수는 N * K * M번이기때문에
+행렬 곱 알고리즘은 O(N^3)의 복잡도를 지닌다. 그러나 우리가 실제로 사용할 첫번째 행렬, 즉 N x K 행렬은
+사용자와 키워드 행렬으로 N(사용자)이 1로 고정된 값을 지니게 된다. 따라서 필요한 연산수는
+K(키워드 개수) * M(꽃 개수)번이 되므로 O(N^2)의 복잡도를 지닌다.
+<br><br>
+<a href="https://ibb.co/YyTcnjz"><img src="https://i.ibb.co/pRrfVXt/image.png" alt="image" width="250" height="250" border="0"></a>
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%201.png?raw=true"/>
 
-- 전체적인 관리자 페이지 UI입니다. 꽃 관리, 판매자 관리 탭, 사용자 관리, 거래 모니터링, 주문서 관리, 보안 관리 페이지와 연결됩니다.
 
-### 꽃 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%20%EA%B4%80%EB%A6%AC%20%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true"/>
 
-- 꽃 관리를 할 수 있는 페이지 입니다. 꽃을 선택한 후 꽃에 대한 간단한 설명을 추가/수정/삭제 할 수 있습니다. 위 데이터는 DB와 연동되어 관리자라면 누구나 확인 가능합니다.
 
-### 사용자 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
 
-- 암호화된 사용자(회원)의 이름, id, pw, 전화번호를 확인하고 악성 회원인 경우 체크란을 만들어 중점적으로 관리 할 수 있도록 합니다.
 
-### 판매자 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%8C%90%EB%A7%A4%EC%9E%90%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
 
-- 매장명, 매장위치, 매장 연락처를 확인할 수 있습니다. 매장사진은 직접 판매자에게 요청하여 업데이트하거나 기본 이미지로 대체합니다. 판매량에 따라 파워셀러 여부를 선택 할 수 있습니다.
 
-### 주문서 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
 
-- 관리자가 주문 목록을 조회하고 주문 상태를 업데이트할 수 있습니다. 중개된 거래의 주문을 관리하고 주문 상태를 업데이트할 수 있는 기능을 포함합니다. 주문 검색 및 필터링 할 수 있습니다.
 
-### 거래 모니터링 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B1%B0%EB%9E%98%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.png?raw=true"/>
 
-- 고객명, 전화번호, 픽업날짜, 픽업시간, 주소, 주문 내역이 **List**형식으로 확인 할 수 있습니다. DB 데이터와 연결되어 있으며, 파워셀러 선정시 활용되는 자료입니다.
-
-## 깃 설치 및 깃허브 연동
-
-- 각자의 로컬 개발 환경에 깃 설치 후 메인 레포지토리에 각자의 로컬 저장소를 연결했습니다.
-
-- 커밋과정과 소스코드 Run 과정에서 오류가 발생했으나, 오류 발생원인을 확인하고 해결할 수 있었습니다.
-
-**오류 원인** : jdk 설치 버전이 다름, 소스코드 open 폴더 잘못 지정, 스프링부트 설치환경 다름.
---> 깃허브 소스코드 레포지토리 폴더 수정과 jdk 설치버전 jdk-20 버전으로 통일로 해결!
-
-- 각 컴퓨터에서 commit, Pull Request 과정을 성공, 협업 준비가 완료됐습니다.
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/Pull%20request%20%EC%98%88%EC%8B%9C.png?raw=true"/>
-
-## 주문 페이지 UI 구성 회의
-
-### **메인 홈페이지 예상**
-
-  <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%ED%99%88%20%ED%99%94%EB%A9%B4.jpg?raw=true" width="436" height="617"/>
-
----
-
-### AI 꽃 추천 페이지 예상
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/AI%20%EA%BD%83%20%EC%B6%94%EC%B2%9C.jpg?raw=true" width="436" height="617"/>
-
----
-
-### AI 꽃 추천 완료 페이지 예상
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EA%BD%83%20%EC%B6%94%EC%B2%9C%20AI%20%20%EC%8B%A4%ED%96%89%20%EC%99%84%EB%A3%8C.jpg?raw=true" width="436" height="617"/>
-
----
-
-### 주문하기 페이지 에상
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EC%A3%BC%EB%AC%B8%ED%95%98%EA%B8%B0%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true" width="436" height="617"/>
-
----
-
-### 주문내역 페이지 예상
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EC%A3%BC%EB%AC%B8%EB%82%B4%EC%97%AD.jpg?raw=true" width="436" height="617"/>
-
----
-
-### 매장 매칭 제안 페이지 예상
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/Donggyun/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/%EB%A7%A4%EC%9E%A5%20%EC%A0%9C%EC%95%88%20%ED%8E%98%EC%9D%B4%EC%A7%80.jpg?raw=true" width="436" height="617"/>
-
----
