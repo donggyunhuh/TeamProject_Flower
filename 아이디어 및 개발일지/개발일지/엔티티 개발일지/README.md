@@ -51,8 +51,6 @@
   #### 관계
 - `FlowerKeywordMapping`: 1:N (하나의 꽃이 여러 키워드 매핑을 가질 수 있습니다.)
 
-
-
 ### KeywordSelect Entity
 - `KeywordSelect` 엔터티는 사용자가 선택한 키워드와 그에 대한 가중치를 관리한다.
 - 선택 ID, 사용자 정보, 키워드, 가중치 정보가 포함된다.
