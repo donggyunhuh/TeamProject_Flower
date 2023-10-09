@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="363fddf4-c181-4bb9-b75f-5dab12453b42" name="Changes" comment="" />
+    <list default="true" id="363fddf4-c181-4bb9-b75f-5dab12453b42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_02/Admin 페이지 구현(css 추가).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_02/MVCConfig 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_02/REDAME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_02/메인 페이지 구현.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_03/BaseEntity 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_03/CommonException 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_03/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_03/SecurityConfig 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_03/UserController 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_03/admin index 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_03/메세지 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_04/CommonInterceptor 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_04/Mypage view 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_04/MypageHomeController 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_04/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_04/User entity 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_04/User repository 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_04/UserRole 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_05/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_05/UserInfo 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_05/UserJoin 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_05/flower entity 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_06/JoinController, LoginController 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_06/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_06/mypage css, js 일부 구현.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_06/mypage view 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_06/mypage 관련 Controller 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_07/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_07/error view 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_07/login Handler 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_07/꽃 추천 view 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_07/꽃 추천 관련 Controller 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_08/AuditorAwareImpl 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_08/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_08/User Service부분 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_08/keyword 엔티티 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_08/validator 추가.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/2023_10_08/메인 페이지 수정 완료.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +61,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2Vpbg5UQ8Dk7lStkVbzP2yfnWsr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +80,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,6 +103,7 @@
       <workItem from="1695703797577" duration="834000" />
       <workItem from="1695974179444" duration="20000" />
       <workItem from="1696339742985" duration="2019000" />
+      <workItem from="1696859801385" duration="7676000" />
     </task>
     <servers />
   </component>
