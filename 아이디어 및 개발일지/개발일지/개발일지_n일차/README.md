@@ -55,15 +55,15 @@
 
 
 ### Relationships 설명
-- `User` ↔ `Order`: 한 명의 사용자는 여러 개의 주문을 가질 수 있으며, 이를 위해 `Order` 테이블에 `userId`를 외래키(FK)로 설정한다.
+- `User` ↔ `Order`: 한 명의 사용자는 여러 개의 주문을 가질 수 있으며, 이를 위해 `Order` 테이블에 `userId`를 외래키(FK)로 설정합니다.
+  
+- `User` ↔ `Store`: 한 명의 사용자는 여러 개의 매장을 등록할 수 있습니다. `Store` 테이블에 `userId`를 외래키로 설정합니다.
 
-- `User` ↔ `Store`: 한 명의 사용자는 여러 개의 매장을 등록할 수 있습니다. `Store` 테이블에 `userId`를 외래키로 설정한다.
+- `User` ↔ `KeywordSelect`: 사용자가 선택한 키워드는 여러 개일 수 있으므로 `KeywordSelect`에 `userId`를 외래키로 설정합니다.
 
-- `User` ↔ `KeywordSelect`: 사용자가 선택한 키워드는 여러 개일 수 있으므로 `KeywordSelect`에 `userId`를 외래키로 설정한다.
+- `Store` ↔ `StoreImage`: 한 매장은 여러 이미지를 가질 수 있습니다. `StoreImage` 테이블에 `storeId`를 외래키로 설정합니다.
 
-- `Store` ↔ `StoreImage`: 한 매장은 여러 이미지를 가질 수 있습니다. `StoreImage` 테이블에 `storeId`를 외래키로 설정한다.
-
-- `KeywordSelect` ↔ `Keywords`: 사용자가 선택한 키워드는 기존의 키워드 테이블에 있으므로 `KeywordSelect`에 `keywordId`를 외래키로 설정한다.
+- `KeywordSelect` ↔ `Keywords`: 사용자가 선택한 키워드는 기존의 키워드 테이블에 있으므로 `KeywordSelect`에 `keywordId`를 외래키로 설정합니다.
 
 ## 논의 및 문제점
 - `Order` 엔터티의 상태 정보(‘접수중’, ‘매장 선택중’,‘매칭 실패’, ‘매칭 완료’)가 구현되어 있지 않음. 이를 enum 타입으로 추가할 필요가 있음.
@@ -75,3 +75,6 @@
 - 논의 및 문제점에서 언급된 내용을 바탕으로 각 엔터티와 관계에 대한 수정 및 보완이 필요하다.
 - 각 엔터티의 Service Layer 및 Repository Layer를 설계하고 구현한다.
 - 테스트 코드 작성으로 각 엔터티 및 메서드가 예상대로 동작하는지 검증한다.
+
+
+
