@@ -14,5 +14,5 @@
 ## 프로젝트 소개
 
 ### 회원가입 및 로그인
-<img src="https://ibb.co/vm2Ht1V">
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif?raw=true">
 
