@@ -1,6 +1,7 @@
 # 프로젝트 아이디어 회의 및 개발 계획 일지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EB%A1%9C%EA%B3%A0%20%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0%20%EC%98%88%EC%8B%9C.png?raw=true" width="160" height="90"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0%20%EC%98%88%EC%8B%9C.png?raw=ture">
+
 
 # 1차 아이디어 회의
 

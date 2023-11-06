@@ -7,7 +7,8 @@
 - 이 README는 꽃 추천 웹사이트 데이터베이스 스키마의 주요 엔터티(entities)와 그들 간의 관계(relationships)에 대하여 설명합니다.
 
 ### User Entity
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Users.png?raw=true"/>
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Users.png?raw=true">
 
 - `User` 엔터티를 통해서 사용자 정보를 관리한다.
 - 기본키, 인덱스, 이메일, 이름, 닉네임, 패스워드, 전화번호, 생년월일, 권한 및 연관 엔터티를 포함한다.
@@ -18,7 +19,9 @@
 - `KeywordSelect`: 1:N (하나의 사용자가 여러 키워드 선택을 가질 수 있습니다.)
 
 ### Order Entity
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Orders.png?raw=true"/>
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Orders.png?raw=ture">
+
 - `Order` 엔터티에서는 주문 정보를 관리한다.
 - 주문 식별자, 사용자의 ID, 픽업 날짜, 픽업 시간, 꽃 종류, 꽃 색상, 가격 범위, 메시지 등의 정보가 포함된다.
 
@@ -27,7 +30,9 @@
 - `Store`: N:1 (여러 주문이 하나의 매장에 속할 수 있습니다.)
 
 ### Store Entity
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/StoreInfo.png?raw=true">
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/StoreInfo.png?raw=true">
+
 - `Store` 엔터티를 통해 매장의 기본 정보를 관리한다.
 - 매장 식별자, 이름, 사용자의 ID, 영업 시간, 위치, 연락처 및 이미지 정보를 가지고 있다.
 
@@ -36,7 +41,9 @@
 - `Order`: 1:N (하나의 매장은 여러 주문을 가질 수 있습니다.)
 
 ### StoreImage Entity
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/StoreImage.png?raw=true">
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/StoreImage.png?raw=true">
+
 - `StoreImage` 엔터티에서는 매장 이미지의 정보를 관리한다.
 - 이미지 식별자, 이미지 경로 및 해당 매장의 정보가 담겨있다.
 
@@ -44,7 +51,9 @@
 - `Store`: N:1 (여러 매장 이미지는 하나의 매장에 속할 수 있습니다.)
 
 ### Flower Entity
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/FlowerInfo.png?raw=true">
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/FlowerInfo.png?raw=true">
+
 - `Flower` 엔터티는 꽃에 대한 모든 정보와 연관된 다른 엔티티들과의 관계를 관리한다.
 - 꽃 ID, 꽃명, 꽃말, 개화시기, 계절, 꽃 이미지 경로 정보가 포함된다.
 
@@ -59,7 +68,9 @@
 - `User`: N:1 (여러 키워드 선택이 하나의 사용자에 속할 수 있습니다.)
 
 ### Keywords Entity
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Keywords.png?raw=true">
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Keywords.png?raw=true">
+
 - `Keywords` 엔터티에서는 키워드의 기본 정보와 연관된 다른 엔터티들과의 관계를 관리한다.
 - 키워드 식별자, 키워드 이름, 연관된 꽃 키워드 매핑 및 키워드 선택 정보가 포함되어 있다.
 

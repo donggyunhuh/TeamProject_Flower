@@ -7,37 +7,37 @@
 
 ### 관리자 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%201.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%EA%B4%80%EB%A6%AC%EC%9E%90%201.png?raw=true"/>
 
 - 전체적인 관리자 페이지 UI입니다. 꽃 관리, 판매자 관리 탭, 사용자 관리, 거래 모니터링, 주문서 관리, 보안 관리 페이지와 연결됩니다.
 
 ### 꽃 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%20%EA%B4%80%EB%A6%AC%20%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%EA%BD%83%20%EA%B4%80%EB%A6%AC%20%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true">
 
 - 꽃 관리를 할 수 있는 페이지 입니다. 꽃을 선택한 후 꽃에 대한 간단한 설명을 추가/수정/삭제 할 수 있습니다. 위 데이터는 DB와 연동되어 관리자라면 누구나 확인 가능합니다.
 
 ### 사용자 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A6%AC.png?raw=ture">
 
 - 암호화된 사용자(회원)의 이름, id, pw, 전화번호를 확인하고 악성 회원인 경우 체크란을 만들어 중점적으로 관리 할 수 있도록 합니다.
 
 ### 판매자 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%8C%90%EB%A7%A4%EC%9E%90%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%ED%8C%90%EB%A7%A4%EC%9E%90%20%EA%B4%80%EB%A6%AC.png?raw=ture">
 
 - 매장명, 매장위치, 매장 연락처를 확인할 수 있습니다. 매장사진은 직접 판매자에게 요청하여 업데이트하거나 기본 이미지로 대체합니다. 판매량에 따라 파워셀러 여부를 선택 할 수 있습니다.
 
 ### 주문서 관리 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%20%EA%B4%80%EB%A6%AC.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%EC%A3%BC%EB%AC%B8%EC%84%9C%20%EA%B4%80%EB%A6%AC.png?raw=true">
 
 - 관리자가 주문 목록을 조회하고 주문 상태를 업데이트할 수 있습니다. 중개된 거래의 주문을 관리하고 주문 상태를 업데이트할 수 있는 기능을 포함합니다. 주문 검색 및 필터링 할 수 있습니다.
 
 ### 거래 모니터링 페이지
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B1%B0%EB%9E%98%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.png?raw=true"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%EA%B1%B0%EB%9E%98%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.png?raw=true"/>
 
 - 고객명, 전화번호, 픽업날짜, 픽업시간, 주소, 주문 내역이 **List**형식으로 확인 할 수 있습니다. DB 데이터와 연결되어 있으며, 파워셀러 선정시 활용되는 자료입니다.
 
