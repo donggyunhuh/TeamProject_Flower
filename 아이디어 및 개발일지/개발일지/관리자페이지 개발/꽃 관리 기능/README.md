@@ -1,6 +1,9 @@
 # 꽃 관리 기능
 
 ## FlowerController 클래스
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%EA%B4%80%EB%A6%AC/FlowerController.png?raw=true">
+
 `FlowerController` 클래스는 `/admin/recommend` 경로에 매핑되며, 관리자 페이지에서 꽃 관련 정보를 관리하는 컨트롤러입니다.
 
 ### 메소드 요약
@@ -16,9 +19,13 @@
 ### 주요 기능
 
 - `addWeightsByFlower(Flower flower, List<Keywords> allKeywords)`: 새로운 꽃이 추가될 때, 해당 꽃에 대한 모든 키워드의 가중치 정보를 생성합니다.
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%EA%B4%80%EB%A6%AC/addWeightByFlower.png?raw=true">
 - `addFlower(FlowerInfo flowerInfo)`: 새 꽃 정보를 데이터베이스에 추가하고, 가중치 정보를 생성합니다.
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%EA%B4%80%EB%A6%AC/addFlower.png?raw=true">
 - `editFlowerList(List<FlowerInfo> flowerInfoList)`: 여러 꽃의 정보를 수정하고, 결과 리스트를 반환합니다.
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%EA%B4%80%EB%A6%AC/editFlowerList.png?raw=true">
 - `deleteFlower(List<Long> flowerNos)`: 주어진 식별자(ID) 목록에 해당하는 꽃들을 삭제합니다.
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%EA%B4%80%EB%A6%AC/deleteFlower.png?raw=true">
 
 ## FlowerInfoService 클래스
 `FlowerInfoService` 클래스는 꽃 정보 조회를 담당하는 서비스입니다.
