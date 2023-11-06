@@ -4,7 +4,7 @@
 
 `UserController` 클래스는 관리자 페이지에서 회원 관리 기능을 처리하는 컨트롤러입니다.
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif?raw=true">
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC/usercontroller.png?raw=true">
 
 - `@GetMapping`으로 정의된 `index` 메서드를 통해, 관리자는 `/admin/user` 경로로 접속하여 모든 사용자 목록을 볼 수 있습니다.
 - `getAllUsers` 메서드는 `UserInfoService`를 통해 모든 사용자 정보를 조회합니다.
@@ -21,7 +21,7 @@
 
 ## UserInfo (org.flower.models.user)
 
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif?raw=true">
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC/userinfo.png?raw=true">
 
 `UserInfo` 클래스는 `UserDetails` 인터페이스를 구현합니다.
 
