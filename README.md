@@ -1,4 +1,5 @@
-#### 🌼 사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 꽃 주문 방식 단순화 서비스를 제공하는 웹 사이트 입니다.🌼
+#### 🌼 사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 
+#### 꽃 주문 방식 단순화 서비스를 제공하는 웹 사이트 입니다.🌼
 
 
 [프로젝트 기획서 보기](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B8%B0%ED%9A%8D%EC%84%9C/%EB%8F%84%ED%99%94%EB%8B%A4%20%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EB%B0%8F%20%EC%A3%BC%EB%AC%B8%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
