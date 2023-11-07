@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="363fddf4-c181-4bb9-b75f-5dab12453b42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/UI 개발/RECOMMEND 페이지/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/UI 개발/RECOMMEND 페이지/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/꽃 추천 기능 개발/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/아이디어 및 개발일지/개발일지/꽃 추천 기능 개발/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/프로젝트 사진/메인페이지/메인페이지.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/프로젝트 사진/메인페이지/메인페이지.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
