@@ -1,7 +1,9 @@
 # 개인 맞춤형 꽃 추천 및 온라인 주문 플랫폼
 ## : DALL-E를 이용한 AI 엽서 이미지 디자인 서비스
 
-🌼 사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 꽃 주문 방식의 단순화 서비스를 제공하는 웹 사이트 입니다.
+
+사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 꽃 주문 방식의 단순화 서비스를 제공하는 웹 사이트 입니다.
+
 
 ## 🌼 꽃 추천 기능 서비스 예시
 
@@ -121,11 +123,11 @@
       - #### [메인페이지, 회원가입 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/%EB%A9%94%EC%9D%B8%20%ED%8E%98%EC%9D%B4%EC%A7%80)
   ----
   - ### [꽃 추천 알고리즘](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EA%B8%B0%EB%8A%A5%20%EA%B0%9C%EB%B0%9C)
-    -  행렬곱셈을 이용하여 알고리즘을 개발하였습니다.
+    -  사용자가 선택한 키워드를 기반으로 꽃을 추천하는 알고리즘의 개발 과정을 요약하였습니다. 시스템은 키워드와 연관된 가중치 정보를 사용하여 최적의 꽃을 선별하고, 점수가 가장 높은 상위 3개의 꽃을 추천 결과로 제시합니다.
       - #### [가중치 모델링]()
   ----
   - ### [데이터베이스 모델링](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B0%9C%EB%B0%9C)
-    - #### [ER다이어그램](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B0%9C%EB%B0%9C)
+    - 꽃 추천 웹사이트의 데이터베이스 설계를 담고 있으며, 사용자(User), 주문(Order), 매장(Store) 등의 엔터티들과 그 관계를 ER 다이어그램으로 설명하였습니다. 개발 내용은 엔터티 설계의 상세한 설명과 함께 이루어졌으며, 이후로 서비스 및 리포지토리 계층의 구현이 진행되었습니다.
   ----
   - ### [OpenAI의 DALL·E 를 사용한 엽서 제작 서비스]()
 - ## [아이디어 회의 일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%ED%9A%8C%EC%9D%98%EC%9D%BC%EC%A7%80)
