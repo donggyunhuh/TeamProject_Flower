@@ -6,6 +6,10 @@
 ## 개발 내용: 테이블 및 Entity 설계
 - 이 README는 꽃 추천 웹사이트 데이터베이스 스키마의 주요 엔터티(entities)와 그들 간의 관계(relationships)에 대하여 설명합니다.
 
+### ER다이어그램
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/ER%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.png?raw=true">
+
 ### User Entity
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Users.png?raw=true">
