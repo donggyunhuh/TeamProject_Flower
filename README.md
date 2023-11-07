@@ -40,18 +40,20 @@
     - #### [주문 관리 기능](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/%EC%A3%BC%EB%AC%B8%20%EA%B4%80%EB%A6%AC%20%EA%B8%B0%EB%8A%A5)
     - 주문 관리 기능을 구현한 `OrderController`를 통해 관리자는 웹사이트에서 주문 목록을 조회하고, 새로운 주문을 추가하며, 기존 주문을 수정 또는 삭제할 수 있으며 주문 데이터를 체계적으로 관리하도록 설계되었습니다.
     - #### [UI구상](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/UI%EA%B5%AC%EC%83%81)
-  ---
+  ----
   - ### [메인 페이지 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80)
     - #### [UI 개발](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C)
       - #### [추천 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/RECOMMEND%20%ED%8E%98%EC%9D%B4%EC%A7%80)
       - #### [주문서 작성 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/ORDER%20%ED%8E%98%EC%9D%B4%EC%A7%80)
       - #### [마이페이지 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/MYPAGE%20%ED%8E%98%EC%9D%B4%EC%A7%80)
       - #### [메인페이지, 회원가입 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/%EB%A9%94%EC%9D%B8%20%ED%8E%98%EC%9D%B4%EC%A7%80)
-  ---
+  ----
   - ### [꽃 추천 알고리즘](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EA%B8%B0%EB%8A%A5%20%EA%B0%9C%EB%B0%9C)
     -  행렬곱셈을 이용하여 알고리즘을 개발하였습니다.
       - #### [가중치 모델링]()
-  ---
+  ----
   - ### [데이터베이스 모델링](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B0%9C%EB%B0%9C)
     - #### [ER다이어그램](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B0%9C%EB%B0%9C)
+  ----
+  - ### [OpenAI의 DALL·E 를 사용한 엽서 제작 서비스]()
 - ## [아이디어 회의 일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%ED%9A%8C%EC%9D%98%EC%9D%BC%EC%A7%80)
