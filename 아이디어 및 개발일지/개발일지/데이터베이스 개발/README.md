@@ -6,11 +6,11 @@
 ## 개발 내용: 테이블 및 Entity 설계
 - 이 README는 꽃 추천 웹사이트 데이터베이스 스키마의 주요 엔터티(entities)와 그들 간의 관계(relationships)에 대하여 설명합니다.
 
-### ER다이어그램
+## ER다이어그램
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/ER%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.png?raw=true">
 
-### User Entity
+## User Entity
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Users.png?raw=true">
 
@@ -22,7 +22,7 @@
 - `Store`: 1:N (하나의 사용자가 여러 매장을 소유할 수 있습니다.)
 - `KeywordSelect`: 1:N (하나의 사용자가 여러 키워드 선택을 가질 수 있습니다.)
 
-### Order Entity
+## Order Entity
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Orders.png?raw=ture">
 
@@ -33,7 +33,7 @@
 - `User`: N:1 (여러 주문이 하나의 사용자에 속할 수 있습니다.)
 - `Store`: N:1 (여러 주문이 하나의 매장에 속할 수 있습니다.)
 
-### Store Entity
+## Store Entity
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/StoreInfo.png?raw=true">
 
@@ -44,7 +44,7 @@
 - `User`: N:1 (여러 매장이 하나의 사용자에 속할 수 있습니다.)
 - `Order`: 1:N (하나의 매장은 여러 주문을 가질 수 있습니다.)
 
-### StoreImage Entity
+## StoreImage Entity
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/StoreImage.png?raw=true">
 
@@ -54,7 +54,7 @@
   #### 관계
 - `Store`: N:1 (여러 매장 이미지는 하나의 매장에 속할 수 있습니다.)
 
-### Flower Entity
+## Flower Entity
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/FlowerInfo.png?raw=true">
 
@@ -64,26 +64,26 @@
   #### 관계
 - `FlowerKeywordMapping`: 1:N (하나의 꽃이 여러 키워드 매핑을 가질 수 있습니다.)
 
-### KeywordSelect Entity
+## KeywordSelect Entity
 - `KeywordSelect` 엔터티는 사용자가 선택한 키워드와 그에 대한 가중치를 관리한다.
 - 선택 ID, 사용자 정보, 키워드, 가중치 정보가 포함된다.
 
   #### 관계
 - `User`: N:1 (여러 키워드 선택이 하나의 사용자에 속할 수 있습니다.)
 
-### Keywords Entity
+## Keywords Entity
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81/Keywords.png?raw=true">
 
 - `Keywords` 엔터티에서는 키워드의 기본 정보와 연관된 다른 엔터티들과의 관계를 관리한다.
 - 키워드 식별자, 키워드 이름, 연관된 꽃 키워드 매핑 및 키워드 선택 정보가 포함되어 있다.
 
-### BaseEntity
+## BaseEntity
 - `BaseEntity`는 모든 엔터티에서 상속받아 사용할 수 있는 엔터티로, 기본적인 정보 (생성 일시, 수정 일시, 삭제 일시)를 담고 있다.
 - `@MappedSuperclass`를 통해 다른 엔터티에서 상속 받아 사용되며, 직접적인 엔터티로 사용되지 않는다.
 
 
-### Relationships 설명
+## Relationships 설명
 - `User` ↔ `Order`: 한 명의 사용자는 여러 개의 주문을 가질 수 있으며, 이를 위해 `Order` 테이블에 `userId`를 외래키(FK)로 설정합니다.
   
 - `User` ↔ `Store`: 한 명의 사용자는 여러 개의 매장을 등록할 수 있습니다. `Store` 테이블에 `userId`를 외래키로 설정합니다.
