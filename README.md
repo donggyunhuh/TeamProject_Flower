@@ -1,23 +1,95 @@
-### 🌼 사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 꽃 주문 방식의 단순화 서비스를 제공하는 웹 사이트 입니다.
+# 개인 맞춤형 꽃 추천 및 온라인 주문 플랫폼
+## : DALL-E를 이용한 AI 엽서 이미지 디자인 서비스
 
+🌼 사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 꽃 주문 방식의 단순화 서비스를 제공하는 웹 사이트 입니다.
 
-- ####  주제 선택 이유
-  <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%8F%84%ED%99%94%EB%8B%A4%20%EC%9D%B4%EB%A6%84%20%EC%84%A4%EB%AA%85.png?raw=true">
-
-- #### 현재 기술 스택을 사용한 이유
-
-
-- ### [프로젝트 기획서 보기](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B8%B0%ED%9A%8D%EC%84%9C/%EB%8F%84%ED%99%94%EB%8B%A4%20%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EB%B0%8F%20%EC%A3%BC%EB%AC%B8%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
-
-----
-
-## 🌼 꽃 추천 기능 서비스
+## 🌼 꽃 추천 기능 서비스 예시
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%B6%94%EC%B2%9C%EC%84%9C%EB%B9%84%EC%8A%A4.gif?raw=ture">
 
-## 🌼 주문서 작성 및 주문 내역 확인 서비스
+## ✔️ 주제를 선택한 이유와 기획서 확인하기
+
+- ###  주제 선택 이유
+  - 개인 맞춤형 상품(꽃다발, 케이크 등)을 예약하거나 구매할 경우 현재는 SNS를 통해 사장님에게 직접 연락해야 하는 불편함이 있습니다. 
+  - 이를 개선하기 위해 선택한 주제로, 꽃 예약 사이트를 통해 사장님들의 수고를 덜어주고, 꽃 구매에 사용자 경험을 향상시키고 다양한 정보를 제공할 수 있도록 하기 위해서 입니다.
+
+- ### [프로젝트 기획서](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B8%B0%ED%9A%8D%EC%84%9C/%EB%8F%84%ED%99%94%EB%8B%A4%20%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EB%B0%8F%20%EC%A3%BC%EB%AC%B8%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
+
+
+## ✔️ 개발 진행 상황
+- 꽃 추천 기능 : 100%완료 
+  - 꽃과 키워드 간의 가중치를 설정하고, 사용자가 우선 순위대로 키워드를 선택한 리스트에 맞게 가중치가 높은 순으로 3종류의 꽃을 추천합니다.
+
+
+- DALL-E 엽서 디자인 기능 
+  - 스프링 부트와 메이븐을 사용하여 OpenAI의 DALL·E API를 적용하는 중입니다.
+
+
+- 관리자 페이지 구현 
+  - 꽃 관리 기능: 100% 완료 (꽃 추가, 수정, 삭제 구현 완료)
+    - 그 외 키워드,  가중치 관리 기능
+  - 주문 처리 기능: 100% 완료 (주문 목록 조회 구현 완료)
+    - 주문, 매장 리스트 추가 수정, 삭제 기능
+  - 사용자 정보 관리 기능: 100% 완료 (사용자 목록 조회 구현 완료)
+
+
+- 메인 페이지 구현
+  - 주문서 작성, 주문완료 페이지
+    - css 수정중
+  - 마이페이지 
+    - 주문내역 확인
+      - OWNER인 회원에 한해 모든 주문내역을 확인할 수 있도록 코드 수정 중
+    - 닉네임 변경 기능 : 100%완료
+
+
+- UI디자인
+  - `figma`를 사용하여 짜임새 있는 UI를 구상하였습니다.
+  - [fimga에서 UI 확인하기](https://www.figma.com/file/tWJizqxXmYMFLOvOuNIm2K/dohwada?type=whiteboard&node-id=0-1&t=u6UkALhhkdpblQpR-0)
+    
+  
+---
+
+
+## ✔️ 사용 기술 스택
+
+```
+- Java 21
+- Spring Boot 3.1.4
+- Spring MVC
+- Thymeleaf 3.2.1
+- Spring Security
+- MySQL (데이터베이스)
+```
+- 프로젝트를 개발 하기 위해서 스프링 프레임워크를 이용하였습니다. 
+
+
+- **스프링 MVC 패턴**으로 컨트롤러와 뷰를 분리하여 웹 애플리케이션의 구조를 체계화하여 관리하고, 요청과 응답을 처리하는데 사용합니다.
+
+
+- **Thymeleaf 템플릿 엔진**을 활용하여 HTML 뷰를 생성할 수 있었습니다. 이를 통해 동적으로 페이지를 생성하고 데이터를 렌더링할 수 있습니다.
+
+
+- **데이터베이스 트랜잭션 관리**: 스프링의 `@Transactional` 어노테이션을 적용하여 데이터베이스 트랜잭션을 관리하고, 데이터베이스 연산의 일관성을 유지하였습니다.
+
+
+- 이외에도 스프링부트에서 지원하는 어노테이션으로 getter와 setter 등을 서술하지 않는 편리성을 이유로 이러한 언어를 사용하였습니다.
+
+
+----
+## ✔️ 기능 구현 예시 
+
+### 🌼 꽃 추천 기능 서비스
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%B6%94%EC%B2%9C%EC%84%9C%EB%B9%84%EC%8A%A4.gif?raw=ture">
+
+### 🌼 주문서 작성 및 주문 내역 확인 서비스
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture">
+
+### 🌼 관리자페이지 작동 예시
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture">
+
 
 
 ## 🌼 목차
