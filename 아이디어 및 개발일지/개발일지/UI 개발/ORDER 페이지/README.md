@@ -13,18 +13,18 @@
 - **주문서 작성 페이지 (`@GetMapping()`)**
     - 사용자가 로그인하지 않은 경우 로그인 페이지로 리다이렉트합니다.
     - 로그인한 사용자에게는 주문서 작성 페이지를 제공합니다.
-    - <img src="">
+    - <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/ordercontroller_getmapping.png?raw=true">
 
 - **주문서 저장 및 주문 완료 페이지 (`@PostMapping("/submitOrder")`)**
     - 사용자가 작성한 주문서를 저장하고 주문 완료 페이지로 리다이렉트합니다.
-    - <img src="">
+    - <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/ordercontroller_postmapping.png?raw=true">
 
 ### 모델 (`OrderFormInfo`)
 - 주문서 작성을 위한 정보를 담는 클래스입니다.
 - 사용자 번호, 이름, 전화번호 등 주문에 필요한 정보를 포함합니다.
 
 ### 서비스 (`OrderFormService`)
-- <img src="">
+- <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%A3%BC%EB%AC%B8/orderformservice.png?raw=true">
 - 주문 폼 정보를 바탕으로 새로운 주문 객체를 생성하고 저장하는 역할을 합니다.
 - `@Transactional` 어노테이션을 통해 데이터베이스의 일관성을 유지합니다.
 

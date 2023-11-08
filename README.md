@@ -76,7 +76,7 @@ Figma를 사용하여 사용자 인터페이스를 구상하고 디자인하였�
 꽃 추천 웹사이트의 데이터베이스 설계를 담고 있으며, 사용자(User), 주문(Order), 매장(Store) 등의 엔터티들과 그 관계를 ER 다이어그램으로 설명하였습니다. 개발 내용은 엔터티 설계의 상세한 설명과 함께 이루어졌으며, 이후로 서비스 및 리포지토리 계층의 구현이 진행되었습니다.
 
 ## 기능 구현 예시
-
+- gif 파일이 표시되는데 시간이 걸릴 수 있습니다. 양해해주시면 감사하겠습니다.
 ### 🌼 꽃 추천 기능 서비스
 
 ![꽃 추천 기능](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%B6%94%EC%B2%9C%EC%84%9C%EB%B9%84%EC%8A%A4.gif?raw=ture)
@@ -87,12 +87,19 @@ Figma를 사용하여 사용자 인터페이스를 구상하고 디자인하였�
 
 ### 🌼 엽서 디자인 서비스
 
-![관리자 페이지 작동](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture)
+![엽서_디자인_서비스](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%97%BD%EC%84%9C%20%EC%A0%9C%EC%9E%91%20%EA%B8%B0%EB%8A%A5%20%EC%98%88%EC%8B%9C.gif?raw=true)
 
 ### 🌼 관리자 페이지 작동 예시
 
-![관리자 페이지 작동](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture)
+![관리자 페이지 작동](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%EC%9E%91%EB%8F%99%EC%98%88%EC%8B%9C.gif?raw=true)
 
+### 🌼 회원가입/로그인 예시
+
+![회원가입/로그인_예시](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif?raw=true)
+
+### 🌼닉네임 변경 예시
+
+![닉네임_변경_예시](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EB%8B%89%EB%84%A4%EC%9E%84%EB%B3%80%EA%B2%BD%EC%98%88%EC%8B%9C.gif?raw=true)
 
 ## ✔️ 사용 기술 스택
 
