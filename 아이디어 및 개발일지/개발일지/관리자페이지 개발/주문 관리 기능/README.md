@@ -1,6 +1,12 @@
 # 주문 관리 기능 설명
 
-해당 웹사이트의 주문 관리 기능은 다음과 같은 기능들을 포함하고 있습니다:
+
+## 관리자 페이지_주문 관리
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%EC%A3%BC%EB%AC%B8%EA%B4%80%EB%A6%AC.png?raw=true">
+
+<br>
+
+해당 웹사이트의 주문 관리 기능은 다음과 같은 기능들을 포함하고 있습니다
 
 ## 1. 주문 리스트 조회
 

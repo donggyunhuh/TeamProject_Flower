@@ -40,7 +40,8 @@ K(키워드 개수) * M(꽃 개수)번이 되므로 O(N^2)의 복잡도를 지�
 <br><br>
 <a href="https://ibb.co/YyTcnjz"><img src="https://i.ibb.co/pRrfVXt/image.png" alt="image" width="250" height="250" border="0"></a>
 
-## 알고리즘 개발 일지
+## 알고리즘 개발 일지 
+- [꽃 추천 화면 UI개발](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/RECOMMEND%20%ED%8E%98%EC%9D%B4%EC%A7%80)
 
 ### 컨트롤러 (`RecommendController`)
 - `@GetMapping`을 통해 사용자가 키워드를 선택할 수 있는 페이지를 제공합니다.
