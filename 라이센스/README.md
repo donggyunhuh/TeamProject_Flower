@@ -1,1 +1,1 @@
-<a href="https://www.flaticon.com/kr/free-icons/" title="꽃 아이콘">꽃 아이콘  제작자: Dooder - Flaticon</a>
+로고 디자인 : <a href="https://www.flaticon.com/kr/free-icons/" title="꽃 아이콘">꽃 아이콘  제작자: Dooder - Flaticon</a>
