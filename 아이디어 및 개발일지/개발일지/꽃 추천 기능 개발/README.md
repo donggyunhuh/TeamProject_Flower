@@ -60,6 +60,10 @@ K(키워드 개수) * M(꽃 개수)번이 되므로 O(N^2)의 복잡도를 지�
 - 가중치 시스템을 통해 복수의 키워드가 주어졌을 때 각각의 중요도를 다르게 적용하여 꽃에 점수를 부여합니다.
 - 최종적으로 점수가 가장 높은 꽃을 사용자에게 추천합니다.
 
+## 꽃 추천 기능 서비스 예시
+
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%B6%94%EC%B2%9C%EC%84%9C%EB%B9%84%EC%8A%A4.gif?raw=ture">
+
 
 
 

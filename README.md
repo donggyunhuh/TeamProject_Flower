@@ -1,13 +1,16 @@
-# 개인 맞춤형 꽃 추천 및 온라인 주문 플랫폼
-## : DALL-E를 이용한 AI 엽서 이미지 디자인 서비스
+# 개인 맞춤형 꽃 추천 및 주문 서비스 : DALL-E를 이용한 엽서 디자인
 
+## 개요
 
-사용자가 선택한 키워드를 기반으로 하여 다양한 꽃들 중 키워드에 맞는 꽃 종류와 정보를 제공하고, 꽃 주문 방식의 단순화 서비스를 제공하는 웹 사이트 입니다.
+이 웹 사이트는 사용자가 선택한 키워드를 기반으로 맞춤형 꽃을 추천하고 주문할 수 있는 플랫폼입니다. DALL-E를 활용하여 텍스트 프롬프트를 기반으로 한 엽서 이미지를 생성하고 주문을 단순화하는 서비스도 제공합니다.
 
+<br>
 
 ## 🌼 꽃 추천 기능 서비스 예시
 
 <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%B6%94%EC%B2%9C%EC%84%9C%EB%B9%84%EC%8A%A4.gif?raw=ture">
+
+<br>
 
 ## ✔️ 주제를 선택한 이유와 기획서 확인하기
 
@@ -16,40 +19,63 @@
   - 이를 개선하기 위해 선택한 주제로, 꽃 예약 사이트를 통해 사장님들의 수고를 덜어주고, 꽃 구매에 사용자 경험을 향상시키고 다양한 정보를 제공할 수 있도록 하기 위해서 입니다.
 
 - ### [프로젝트 기획서](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B8%B0%ED%9A%8D%EC%84%9C/%EB%8F%84%ED%99%94%EB%8B%A4%20%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EB%B0%8F%20%EC%A3%BC%EB%AC%B8%20%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
+- ### [아이디어 회의 일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%ED%9A%8C%EC%9D%98%EC%9D%BC%EC%A7%80)
+
+<br>
+
+## ✔️ 기능 및 서비스
+
+### 꽃 추천 기능
+- [꽃 추천 알고리즘](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EA%B8%B0%EB%8A%A5%20%EA%B0%9C%EB%B0%9C)
+- #### [가중치 모델링](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%BD%83%EA%B4%80%EB%A6%AC/%EA%B0%80%EC%A4%91%EC%B9%98%EB%AA%A8%EB%8D%B8%EB%A7%81.png)
+
+사용자가 선택한 키워드를 기반으로 가중치를 설정하고, 이를 활용하여 꽃을 추천합니다. 사용자가 선택한 키워드를 우선 순위대로 정렬하고, 이에 따라 꽃 종류와 정보를 추천합니다.
+
+### DALL-E 엽서 디자인 기능
+- [OpenAI의 DALL·E 를 사용한 엽서 제작 서비스 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%BB%A4%EC%8A%A4%ED%85%80%20%EC%97%BD%EC%84%9C%20%EC%A0%9C%EC%9E%91%20%EA%B8%B0%EB%8A%A5%20%EA%B0%9C%EB%B0%9C)
+
+사용자가 제공한 텍스트 프롬프트를 기반으로 DALL-E API를 사용하여 엽서 이미지를 생성합니다. 이를 통해 사용자는 원하는 내용의 엽서를 만들고 주문할 수 있습니다.
+
+### 관리자 페이지
+- [관리자페이지 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C)
+  - 관리자 페이지 개발은 꽃 관리, 주문 처리, 사용자 정보 관리 기능들을 100% 완료 상태로 구현하였으며, 스프링 MVC 패턴과 Thymeleaf 템플릿 엔진을 사용하여 설계 및 구현하였습니다. 보안 강화를 위해 스프링 시큐리티를 통합하였고, 프로젝트 구조와 실행 방법을 확인하시려면 링크로 이동해주세요.
 
 
-## ✔️ 개발 진행 상황
-- 꽃 추천 기능 : 100%완료 
-  - 꽃과 키워드 간의 가중치를 설정하고, 사용자가 우선 순위대로 키워드를 선택한 리스트에 맞게 가중치가 높은 순으로 3종류의 꽃을 추천합니다.
+- 꽃 관리 기능: 꽃의 추가, 수정, 삭제를 관리합니다. 키워드와 가중치를 관리합니다.
+  - [꽃 관리 기능 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/%EA%BD%83%20%EA%B4%80%EB%A6%AC%20%EA%B8%B0%EB%8A%A5)
+- 주문 처리 기능: 주문 목록을 조회하고 주문을 추가, 수정, 삭제합니다. 매장 리스트를 관리합니다.
+  - [주문 관리 기능 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/%EC%A3%BC%EB%AC%B8%20%EA%B4%80%EB%A6%AC%20%EA%B8%B0%EB%8A%A5)
+- 사용자 정보 관리 기능: 사용자 목록을 조회하고 관리합니다. 사용자의 닉네임을 변경할 수 있습니다.
+  - [회원 관리 기능 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/%ED%9A%8C%EC%9B%90%20%EA%B4%80%EB%A6%AC%20%EA%B8%B0%EB%8A%A5)
+
+### UI 디자인
+- [도화다 UI](https://www.figma.com/file/tWJizqxXmYMFLOvOuNIm2K/dohwada?type=whiteboard&node-id=0-1&t=bSqZV1XA4xeeeR4x-0)
+
+Figma를 사용하여 사용자 인터페이스를 구상하고 디자인하였습니다.
+
+### 데이터베이스
+- [데이터베이스 모델링](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B0%9C%EB%B0%9C)
 
 
-- DALL-E 엽서 디자인 기능 
-  - 스프링 부트와 메이븐을 사용하여 OpenAI의 DALL·E API를 적용하는 중입니다.
+꽃 추천 웹사이트의 데이터베이스 설계를 담고 있으며, 사용자(User), 주문(Order), 매장(Store) 등의 엔터티들과 그 관계를 ER 다이어그램으로 설명하였습니다. 개발 내용은 엔터티 설계의 상세한 설명과 함께 이루어졌으며, 이후로 서비스 및 리포지토리 계층의 구현이 진행되었습니다.
 
+## 기능 구현 예시
 
-- 관리자 페이지 구현 
-  - 꽃 관리 기능: 100% 완료 (꽃 추가, 수정, 삭제 구현 완료)
-    - 그 외 키워드,  가중치 관리 기능
-  - 주문 처리 기능: 100% 완료 (주문 목록 조회 구현 완료)
-    - 주문, 매장 리스트 추가 수정, 삭제 기능
-  - 사용자 정보 관리 기능: 100% 완료 (사용자 목록 조회 구현 완료)
+### 🌼 꽃 추천 기능 서비스
 
+![꽃 추천 기능](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%B6%94%EC%B2%9C%EC%84%9C%EB%B9%84%EC%8A%A4.gif?raw=ture)
 
-- 메인 페이지 구현
-  - 주문서 작성, 주문완료 페이지
-    - css 수정중
-  - 마이페이지 
-    - 주문내역 확인
-      - OWNER인 회원에 한해 모든 주문내역을 확인할 수 있도록 코드 수정 중
-    - 닉네임 변경 기능 : 100%완료
+### 🌼 주문서 작성 및 주문 내역 확인 서비스
 
+![주문서 작성 및 주문 내역 확인](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture)
 
-- UI디자인
-  - `figma`를 사용하여 짜임새 있는 UI를 구상하였습니다.
-  - [fimga에서 UI 확인하기](https://www.figma.com/file/tWJizqxXmYMFLOvOuNIm2K/dohwada?type=whiteboard&node-id=0-1&t=u6UkALhhkdpblQpR-0)
-    
-  
----
+### 🌼 엽서 디자인 서비스
+
+![관리자 페이지 작동](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture)
+
+### 🌼 관리자 페이지 작동 예시
+
+![관리자 페이지 작동](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture)
 
 
 ## ✔️ 사용 기술 스택
@@ -62,7 +88,7 @@
 - Spring Security
 - MySQL (데이터베이스)
 ```
-- 프로젝트를 개발 하기 위해서 스프링 프레임워크를 이용하였습니다. 
+- 프로젝트를 개발 하기 위해서 스프링 프레임워크를 이용하였습니다.
 
 
 - **스프링 MVC 패턴**으로 컨트롤러와 뷰를 분리하여 웹 애플리케이션의 구조를 체계화하여 관리하고, 요청과 응답을 처리하는데 사용합니다.
@@ -77,57 +103,31 @@
 - 이외에도 스프링부트에서 지원하는 어노테이션으로 getter와 setter 등을 서술하지 않는 편리성을 이유로 이러한 언어를 사용하였습니다.
 
 
-----
-## ✔️ 기능 구현 예시 
-
-### 🌼 꽃 추천 기능 서비스
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%B6%94%EC%B2%9C%EC%84%9C%EB%B9%84%EC%8A%A4.gif?raw=ture">
-
-### 🌼 주문서 작성 및 주문 내역 확인 서비스
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture">
-
-### 🌼 관리자페이지 작동 예시
-
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%A3%BC%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1.gif?raw=ture">
 
 
+## 프로젝트 GitHub Repository
 
-## 🌼 목차
+[프로젝트 소스코드 GitHub Repository 바로가기](https://github.com/donggyunhuh/TeamProjectFlower_Sourcecode)
 
+### [프로젝트 별 이슈](https://github.com/donggyunhuh/TeamProjectFlower_Sourcecode/issues)
+- 깃허브의 프로젝트 기능의 칸반보드를 활용하여 각 기능 개발하였습니다. 첨부한 링크로 이동하면 이슈마다 자세한 개발 과정을 확인하실 수 있습니다.
 
-- ## [소스코드](https://github.com/donggyunhuh/TeamProjectFlower_Sourcecode.git)
-  - 팀원들과 협업하며 진행한 소스코드 리포지토리 입니다.
-- ## [프로젝트 별 이슈](https://github.com/donggyunhuh/TeamProjectFlower_Sourcecode/issues)
-  - 깃허브의 프로젝트 기능의 칸반보드를 활용하여 각 기능 개발하였습니다. 첨부한 링크로 이동하면 이슈마다 자세한 개발 과정을 확인하실 수 있습니다.
-    
     <img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%B9%B8%EB%B0%98%EB%B3%B4%EB%93%9C.png?raw=true">
 
-- ## [개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80)
-  - ### [관리자페이지 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C)
-  - 관리자 페이지 개발은 꽃 관리, 주문 처리, 사용자 정보 관리 기능들을 100% 완료 상태로 구현하였으며, 스프링 MVC 패턴과 Thymeleaf 템플릿 엔진을 사용하여 설계 및 구현하였습니다. 보안 강화를 위해 스프링 시큐리티를 통합하였고, 프로젝트 구조와 실행 방법을 확인하시려면 링크로 이동해주세요.
-    - #### [회원 관리 기능](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/%ED%9A%8C%EC%9B%90%20%EA%B4%80%EB%A6%AC%20%EA%B8%B0%EB%8A%A5)
-    - 회원 관리 기능을 구현한 UserController에 관련된 내용입니다. 관리자 페이지에서 사용자의 전체 목록을 조회하고, 사용자 인증과 관련된 서비스를 제공합니다. 이와 함께 UserInfoService와 UserRepository를 통해 사용자 데이터의 CRUD 작업을 추상화하고, 로그인 성공 및 실패에 대한 사용자 피드백을 처리합니다.
-    - #### [꽃 관리 기능](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/%EA%BD%83%20%EA%B4%80%EB%A6%AC%20%EA%B8%B0%EB%8A%A5)
-    - 꽃 관리 기능을 구현한 `FlowerController`는 관리자 페이지에서 꽃의 추가, 수정, 삭제를 포함한 전체적인 꽃 관련 정보 관리를 담당합니다. `FlowerEditService`는 새로운 꽃의 추가와 기존 꽃 정보의 수정 및 삭제를 처리하며, `FlowerInfoService`는 모든 꽃 정보의 조회를 지원하고, `FlowerRepository`는 데이터베이스에서 꽃 정보에 대한 연산을 추상화합니다.
-    - #### [주문 관리 기능](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/%EC%A3%BC%EB%AC%B8%20%EA%B4%80%EB%A6%AC%20%EA%B8%B0%EB%8A%A5)
-    - 주문 관리 기능을 구현한 `OrderController`를 통해 관리자는 웹사이트에서 주문 목록을 조회하고, 새로운 주문을 추가하며, 기존 주문을 수정 또는 삭제할 수 있으며 주문 데이터를 체계적으로 관리하도록 설계되었습니다.
-    - #### [UI구상](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EB%B0%9C/UI%EA%B5%AC%EC%83%81)
-  ----
-  - ### [메인 페이지 개발일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80)
-    - #### [UI 개발](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C)
-      - #### [추천 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/RECOMMEND%20%ED%8E%98%EC%9D%B4%EC%A7%80)
-      - #### [주문서 작성 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/ORDER%20%ED%8E%98%EC%9D%B4%EC%A7%80)
-      - #### [마이페이지 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/MYPAGE%20%ED%8E%98%EC%9D%B4%EC%A7%80)
-      - #### [메인페이지, 회원가입 화면](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/UI%20%EA%B0%9C%EB%B0%9C/%EB%A9%94%EC%9D%B8%20%ED%8E%98%EC%9D%B4%EC%A7%80)
-  ----
-  - ### [꽃 추천 알고리즘](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%BD%83%20%EC%B6%94%EC%B2%9C%20%EA%B8%B0%EB%8A%A5%20%EA%B0%9C%EB%B0%9C)
-    -  사용자가 선택한 키워드를 기반으로 꽃을 추천하는 알고리즘의 개발 과정을 요약하였습니다. 시스템은 키워드와 연관된 가중치 정보를 사용하여 최적의 꽃을 선별하고, 점수가 가장 높은 상위 3개의 꽃을 추천 결과로 제시합니다.
-      - #### [가중치 모델링]()
-  ----
-  - ### [데이터베이스 모델링](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B0%9C%EB%B0%9C)
-    - 꽃 추천 웹사이트의 데이터베이스 설계를 담고 있으며, 사용자(User), 주문(Order), 매장(Store) 등의 엔터티들과 그 관계를 ER 다이어그램으로 설명하였습니다. 개발 내용은 엔터티 설계의 상세한 설명과 함께 이루어졌으며, 이후로 서비스 및 리포지토리 계층의 구현이 진행되었습니다.
-  ----
-  - ### [OpenAI의 DALL·E 를 사용한 엽서 제작 서비스]()
-- ## [아이디어 회의 일지](https://github.com/donggyunhuh/TeamProject_Flower/tree/main/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%ED%9A%8C%EC%9D%98%EC%9D%BC%EC%A7%80)
+## 프로젝트 팀 구성
+
+- 팀장: 허동균
+- 팀원: 구대윤, 김진우, 이도경
+
+## 개발 일정
+
+- 프로젝트 시작일: 2023년 9월 18일
+- 프로젝트 완료 예정일: 2023년 11월 27일
+
+
+
+## 마치며
+
+이 프로젝트는 사용자에게 개인 맞춤형 꽃 추천 및 주문 서비스를 제공함으로써 꽃을 구매하고 싶은 사람들에게 더 나은 경험을 제공하고자 합니다. 관심을 가져주셔서 감사드리며 언제든지 문의하시면 자세한 정보를 제공해 드리겠습니다.
+
+감사합니다.
