@@ -5,8 +5,8 @@
 ![엽서_디자인_서비스](https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80/%EC%97%BD%EC%84%9C%20%EC%A0%9C%EC%9E%91%20%EA%B8%B0%EB%8A%A5%20%EC%98%88%EC%8B%9C.gif?raw=true)
 
 ## 생성된 이미지 예시
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%BD%EC%84%9C%EC%A0%9C%EC%9E%91%EA%B8%B0%EB%8A%A5/%EC%97%BD%EC%84%9C%EC%98%88%EC%8B%9C1.png?raw=true" width="200" height="400"/>
-<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%BD%EC%84%9C%EC%A0%9C%EC%9E%91%EA%B8%B0%EB%8A%A5/%EC%97%BD%EC%84%9C%EC%98%88%EC%8B%9C2.png?raw=true" width="200" height="400"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%BD%EC%84%9C%EC%A0%9C%EC%9E%91%EA%B8%B0%EB%8A%A5/%EC%97%BD%EC%84%9C%EC%98%88%EC%8B%9C1.png?raw=true" width="500" height="500"/>
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EC%97%BD%EC%84%9C%EC%A0%9C%EC%9E%91%EA%B8%B0%EB%8A%A5/%EC%97%BD%EC%84%9C%EC%98%88%EC%8B%9C2.png?raw=true" width="500" height="500"/>
 
 ## 개요
 
