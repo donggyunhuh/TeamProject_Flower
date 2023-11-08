@@ -1,5 +1,9 @@
 # 관리자 페이지 회원 관리 기능
 
+## 관리자 페이지_회원 관리
+<img src="https://github.com/donggyunhuh/TeamProject_Flower/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80UI/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC.png?raw=true">
+
+
 ## UserController (org.flower.controllers.admin.user)
 
 `UserController` 클래스는 관리자 페이지에서 회원 관리 기능을 처리하는 컨트롤러입니다.
